@@ -8,9 +8,11 @@
  */
 
 // Your code :
-const getLast = (something) => {
-    let resultat = something.[something.length -1];
+const getLast = (anything) => {
+    let resultat = anything[-1];
+    
     return resultat;
+    
 };
 //* Begin of tests
 const assert = require('assert')
