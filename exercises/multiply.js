@@ -14,6 +14,10 @@ const multiply = (x , y) => {
     if ( x === 0 || y ===0) {
         return 0;
     }
+    else if (x < 0 || y < 0) {
+        for (let i = 0 ; i < y ; i --) {
+            result = x - result ;
+    }
     else {
         for (let i = 0 ; i < y ; i ++) {
             result = x + result ;
