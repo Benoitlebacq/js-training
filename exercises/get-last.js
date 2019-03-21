@@ -9,7 +9,7 @@
 
 // Your code :
 const getLast = (something) => {
-    let resultat = something[-1];
+    let resultat = something.[something.length -1];
     return resultat;
 };
 //* Begin of tests
