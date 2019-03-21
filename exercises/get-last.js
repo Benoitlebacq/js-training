@@ -8,10 +8,9 @@
  */
 
 // Your code :
-const getLast = (anything) => {
-    let resultat = anything[-1];
-    
-    return resultat;
+const getLast = (bidule) => {
+       
+    return bidule[bidule.length -1];
     
 };
 //* Begin of tests
