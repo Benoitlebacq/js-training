@@ -11,7 +11,7 @@
 
 // Your code :
 const abs = (argument) => {
-    if (argument < -1) {
+    if (argument < 0) {
         return -argument ;
     }
     else {

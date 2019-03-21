@@ -12,6 +12,6 @@ const whisper = (aString) => {
 
 //* Begin of tests
 const assert = require('assert')
-assert.strictEqual(whisper('I Have SomeTHING TO SAY'), 'I HAVE SOMETHING TO SAY')
+assert.strictEqual(whisper('I Have SomeTHING TO SAY'), 'i have something to say')
 
 // End of tests */

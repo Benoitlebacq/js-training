@@ -9,7 +9,8 @@
 
 // Your code :
 const getLast = (something) => {
-    return something[-1];
+    let resultat = something[-1];
+    return resultat;
 };
 //* Begin of tests
 const assert = require('assert')

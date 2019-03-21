@@ -11,9 +11,15 @@
 // Your code :
 const multiply = (x , y) => {
     let result = 0 ;
-    for (let i = 0 ; i < y ; i ++) {
-        result = x + result ;
+    if ( x === 0 || y ===0) {
+        return 0;
     }
+    else {
+        for (let i = 0 ; i < y ; i ++) {
+            result = x + result ;
+        }
+    };
+    
 }
 //* Begin of tests
 const assert = require('assert')
