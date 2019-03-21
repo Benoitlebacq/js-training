@@ -11,10 +11,13 @@
  * and only keep 2 characters from the third character
  *
  */
-
+const keepFisrt = (aString) => {
+    return aString.slice(0, 1);
+}
 
 //* Begin of tests
 const assert = require('assert')
+
 
 assert.fail('You must write your own tests')
 // End of tests */

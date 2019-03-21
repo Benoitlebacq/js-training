@@ -10,7 +10,14 @@
  */
 
 // Your code :
-
+const abs = (argument) => {
+    if (argument < -1) {
+        return -argument ;
+    }
+    else {
+        return argument ;
+    }
+}
 //* Begin of tests
 const assert = require('assert')
 

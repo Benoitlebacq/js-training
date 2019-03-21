@@ -5,10 +5,16 @@
  * and return a string of all the element separated by a space
  *
  */
+const sentence = (something) => {
+    /*for (let  i = 0 ; i < something.length ; i++) {
 
+    }*/
+    console.log(...something);
+}
 
+sentence(['a, b, c, d, e, f']);
 //* Begin of tests
-const assert = require('assert')
+/*const assert = require('assert')
 
 assert.strictEqual(typeof sentence, 'function')
 assert.strictEqual(sentence.length, 1)

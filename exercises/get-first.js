@@ -8,7 +8,9 @@
  */
 
 // Your code :
-
+function getFirst(something) {
+    return something[0];
+};
 //* Begin of tests
 const assert = require('assert')
 

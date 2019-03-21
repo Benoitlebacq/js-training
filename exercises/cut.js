@@ -9,7 +9,20 @@
  * @notions String methods
  * https://github.com/nan-academy/refs/blob/master/js-training/methods.md#string---transform
  */
+const cutFirst = (aString) => {
+    return aString.slice(2);
 
+}
+
+const cutLast = (aString) => {
+    return aString.slice(aString.length - 2 );
+
+}
+
+const cutFirstLast = (aString) => {
+    const tempo = cutLast(aString);
+    return cutFirst(tempo);
+}
 //* Begin of tests
 const assert = require('assert')
 

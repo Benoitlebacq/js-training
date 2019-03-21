@@ -10,6 +10,14 @@
  */
 
 // Your code :
+const max = (argu1 , argu2) => {
+    if (argu1 > argu2) {
+        return argu1;
+    }
+    else {
+        return argu2;,
+    }
+}
 
 //* Begin of tests
 const assert = require('assert')

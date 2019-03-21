@@ -5,7 +5,13 @@
  * and return the total
  *
  */
-
+const total = (anArray) => {
+    let myVar = 0;
+    for (let i = 0 ; i<anArray.length; i++) {
+        myVar = anArray[i] + myVar ;
+    }
+    return myVar;
+}
 
 //* Begin of tests
 const assert = require('assert')

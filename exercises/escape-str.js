@@ -8,7 +8,7 @@
  */
 
 // Your code :
-
+const escapeStr = "a st'ing that / have ` \"\\\ "
 //* Begin of tests
 const assert = require('assert')
 
