@@ -19,7 +19,7 @@ const multiply = (x , y) => {
             result = x + result ;
         }
     };
-    
+    return result;
 }
 //* Begin of tests
 const assert = require('assert')
