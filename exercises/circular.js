@@ -9,6 +9,10 @@
 
 // Your code :
 
+cont circular = {
+    circular : circular;
+}
+
 //* Begin of tests
 const assert = require('assert')
 

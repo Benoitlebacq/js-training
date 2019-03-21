@@ -7,7 +7,13 @@
  *
  */
 
+const capitalize = (string){
+    
+    let majFirstLetter = string.charAt(0).toUpperCase();
+    let stringWithtout = string.slice(1);
+    return majFirstLetter + stringWithtout ;
 
+}
 //* Begin of tests
 const assert = require('assert')
 
