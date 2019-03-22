@@ -11,13 +11,21 @@
  * and only keep 2 characters from the third character
  *
  */
-const keepFisrt = (aString) => {
-    return aString.slice(0, 1);
+const keepFirst = (aString) => {
+    return aString.slice(0, 2);    
+}
+const keepLast = (aString) => {
+    return aString.slice(aString.length -2 , aString.length);    
 }
 
+const keepFirstLast = (aString) => {
+    return aString.slice(2,4);
+}
 //* Begin of tests
 const assert = require('assert')
 
-
-assert.fail('You must write your own tests')
+assert.strictEqual(keepFirst('abcdef'), 'ab')
+assert.strictEqual(keepLast('abcdef'), 'ef')
+assert.strictEqual(keepFirstLast('abcdef'), 'cd')
+/*assert.fail('You must write your own tests')
 // End of tests */
