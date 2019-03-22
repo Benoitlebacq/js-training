@@ -8,7 +8,7 @@
  *
  */
 
-const repeat = (aString , number) {
+const repeat = (aString , number) => {
     let empty = '' ;
     for (let i = 0 ; i < number ; i ++){
         empty = empty + aString ;
