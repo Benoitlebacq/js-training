@@ -10,10 +10,21 @@
  *
  */
 
+const jadenCase = (aString) => {
+    let solution = '';
+    let myArr = aString.split(' ');
+    for (let i = 0 ; i < myArr.length ; i ++) {
+    solution = solution + " " + myArr[i].charAt(0).toUpperCase() + myArr[i].slice(1) ;
+    
+    }
+    console.log(solution)
+}
 
 
-//* Begin of tests
+
+
+// Begin of tests
 const assert = require('assert')
+assert.strictEqual(JadenCase('hello you are cool'), 'Hello You Are Cool')
 
-assert.fail('You must write your own tests')
 // End of tests */
