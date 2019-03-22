@@ -7,7 +7,7 @@
  */
 
 // Your code :
-const concaStr = (val1, val2) => {
+const concatStr = (val1, val2) => {
     return val1 + val2 ;
 }
 //* Begin of tests
