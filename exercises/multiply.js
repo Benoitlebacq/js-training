@@ -12,22 +12,38 @@
 const multiply = (x , y) => {
     let result = 0 ;
     if ( x === 0 || y === 0) {
+        
         return 0;
     }
-    else if (x < 0 && y > 0) {
-        for (let i = 0 ; i < x ; i --) {
-            result = y - result ;
+
+    if (x < 0 && y > 0) {
+        for (let i = 0 ; i < y ; i ++) {       
+            result =  result + x ;
+            
+        }
+        return result;
     }
-    else if (x > 0 && y < 0) {
-        for (let i = 0 ; i < y ; i --) {
-            result = x - result ;
+    if (x > 0 && y < 0) {     
+        for (let i = 0 ; i < x ; i ++) {
+            result =  result  + y ;
+            
+        }
+        return result;
     }
-    else {
+    if (x > 0 && y > 0)    {
         for (let i = 0 ; i < y ; i ++) {
             result = x + result ;
+            
         }
+        return result;
     };
-    return result;
+
+    if (x < 0 && y < 0) {
+        for (let i = 0 ; i > y ; i --) {
+            result = result -x;
+        }
+        return result;     
+    }
 }
 //* Begin of tests
 const assert = require('assert')
@@ -41,7 +57,10 @@ assert.strictEqual(multiply(34, 78), 2652)
 assert.strictEqual(multiply(123, 0), 0)
 assert.strictEqual(multiply(0, -230), 0)
 assert.strictEqual(multiply(0, 0), 0)
+
 assert.strictEqual(multiply(123, -22), -2706)
+
 assert.strictEqual(multiply(-22, 123), -2706)
+
 assert.strictEqual(multiply(-22, -123), 2706)
 // End of tests */
