@@ -11,11 +11,9 @@
 const isPositive = (param) => {
     if (param > 0) {
         return true ;
-<<<<<<< HEAD
+
     } else {
         return false ;
-=======
->>>>>>> 291361ea04a1b832e3c3ee61bf047b8fe4ec663d
     }
 }
 
