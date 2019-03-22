@@ -15,7 +15,7 @@ const max = (argu1 , argu2) => {
         return argu1;
     }
     else {
-        return argu2;,
+        return argu2;
     }
 }
 
