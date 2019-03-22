@@ -15,12 +15,12 @@ const multiply = (x , y) => {
         return 0;
     }
     else if (x < 0 && y > 0) {
-        for (let i = 0 ; i < y ; i --) {
-            result = x - result ;
-    }
-    else if (x > 0 && y < 0) {
         for (let i = 0 ; i < x ; i --) {
             result = y - result ;
+    }
+    else if (x > 0 && y < 0) {
+        for (let i = 0 ; i < y ; i --) {
+            result = x - result ;
     }
     else {
         for (let i = 0 ; i < y ; i ++) {

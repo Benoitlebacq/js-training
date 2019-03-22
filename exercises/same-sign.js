@@ -8,7 +8,7 @@
  */
 
 // Your code :
-const sameSign = (val1 , val2) {
+const sameSign = (val1 , val2) => {
     if ( val1 * val2 > 0) {
         return true ;
     } else {
